@@ -13,7 +13,7 @@ plt.xlabel(r'$\mathregular{km\/s^{-1}}$', size=18)
 plt.ylabel(r'$\mathregular{Mpc}$', size=18)
 plt.tick_params(labelsize=16)
 
-fun = True
+fun = False
 if (fun):
 	datafile = cbook.get_sample_data(currentdir + '/tm.png')
 	img = imread(datafile)
